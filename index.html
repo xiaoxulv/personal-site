@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Xiaoxu Lu">
+    <meta name="author" content="Xiaoxu Lu">
+
+    <title>Xiaoxu Lu</title>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <div class="container" >
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+            <li><a data-toggle="pill" href="#background">Background</a></li>
+            <li><a data-toggle="pill" href="#project">Project</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Xiaoxu Lu</h3>
+      </div>
+
+      <div class="tab-content">
+        <!--home tab-->
+        <div id="home" class="tab-pane fade in active">
+          <div class="jumbotron">
+            <div class="container-fluid">
+              <img src="photo1.jpg" alt="me" style="width:200px;height:200px;" class="center img-circle">
+            </div>
+            <br>
+            <p class="lead">A second year master student at School of Computer Science, Carnegie Mellon University.</p>
+            <p class="lead">A software developer and a data science engineer.</p>
+         
+          </div>
+        </div><!--home tab-->
+
+        <!--background tab-->
+        <div id="background" class="tab-pane fade">
+          <div class="container-fluid">
+            <!--timeline-->
+            <ul class="timeline">
+              <li>
+                <div class="timeline-badge danger"><i class="glyphicon glyphicon-refresh"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Carnegie Mellon University</h4>
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2014.08 - Present</p>
+                  </div>
+                  <div class="timeline-body">
+                    <p>GPA: 3.6/4.0</p>
+                    <p>Master of Science</p>
+                    <p>Language Technologies Institute</p>
+                    <p>School of Computer Science</p>
+                    <P>Graduate Teaching Assistant</p>
+                    <p>Coureses: Meachine Learning, Text Mining, Signal Processing, Big Data Analytics</p> 
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-badge info"><i class="glyphicon glyphicon-education"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Shandong University</h4>
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2010.09 - 2014.06</p>
+                  </div>
+                  <div class="timeline-body">
+                    <p>GPA: 89/100</p> 
+                    <p>Bachelor of Engineering</p>
+                    <p>Department of Computer Science and Technology</p>
+                    <p>Outstanding Graduate Student Award</p>
+                    <p>Courses: Data Structure, Computer Architecture, Operating System, Databases</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">University of California,</h4>
+                    <h4 class="timeline-title">Los Angeles</h4>
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2013.08 - 2014.09</p>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Exchange student for Summer Session</p>
+                    <p>Courses: Game Theory, Business Communication</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-badge success"><i class="glyphicon glyphicon-book"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">National University of Singapore</h4>
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2012.08</p>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Summer Program on Economic and Enterprise Development</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <br>
+        </div><!--background tab-->
+
+
+        <!--project tab-->
+        <div id="project" class="tab-pane fade">
+          <div class="container-fluid">
+            <div class="panel-group" id="accordion">
+
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Data Scientist Intern at Visa Inc.</a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015.06 - 2015.08</p>
+                    <p>Global Merchant Repository Team, Data Platform Division</p>
+                    <p>Implemented a merchant classifier based on transaction locations and customers frequently shopped zip codes.</p>
+                    <p>Built features using MAD(Median Absolute Deviation), WGE(Weighted Gaussian Entropy), and DBSCAN(Density Based Spatial Clustering with Application to Noise) to train the classifier.</P>
+                    <P>Explored how customers are dispersed regarding the merchant location.</p>
+                    <P>Achieved an average accuracy of 92% by cross validation.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Yelp Rating Prediction</a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015.11</p>
+                    <p>Implemented a rating prediction system based on Yelp reviews, employing Multi-class Logistic Regression.</p>
+                    <p>Applied Feature Hash Model on review texts and mini-Batch Stochastic Gradient Descent for Logistic Regression.</p>
+                    <p>Achieved 60% on accuracy and 0.76 on Root Mean Square Error.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Netfilx Movie Recommendation</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015.04 - 2015.05</p>
+                    <p>Implemented a rating prediction system based on Yelp reviews, employing Multi-class Logistic Regression.</p>
+                    <p>Applied Feature Hash Model on review texts and mini-Batch Stochastic Gradient Descent for Logistic Regression.</p>
+                    <p>Achieved 60% on accuracy and 0.76 on Root Mean Square Error.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Screen Based Simulation</a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2014.10 - 2015.05</p>
+                    <p> Implemented a software that enables medical practitioners to practice skills in real-world scenario simulations.</p>
+                    <p>Lead a group of four people responsible for Engine Package for Backend development.</p>
+                    <p>Developed under Scrum and Agile methodology.</p>
+                  </div>
+                </div>
+              </div>  
+
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Face Detection</a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015.03</p>
+                    <p>Implemented a human face detection system employing AdaBoost algorithm.</p>
+                    <p>Extracted Eigenfaces from LFWCrop database and built weak classifiers for AdaBoost utilizing Eigenfaces.</p>
+                  </div>
+                </div>
+              </div>  
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Biomedical Question Answering System</a>
+                  </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p><class="text-muted"><i class="glyphicon glyphicon-time"></i> 2014.10 - 2014.12</p>
+                    <p>Implemented a biomedical question answering system on Apache UIMA framework.
+                    <p>Applied evidence-based retrieval and natural language processing technologies.
+                    <p>Built UIMA pipeline, retrieved related documents and snippets on queries built from given questions, extracted answers and evaluated all the results.</p>
+                  </div>
+                </div>
+              </div>  
+
+            </div> 
+          </div>
+          <br>
+        </div><!--project tab-->
+
+
+      <div class="footer">
+        <div class="row">
+           <div class="col-sm-7">
+              &copy; 2016 Xiaoxu Lu, updated on 01/2016<br>
+              <a class="btn btn-social-icon btn-sm btn-linkedin" href="https://www.linkedin.com/in/xiaoxulu" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+              <a class="btn btn-social-icon btn-sm btn-github" href="https://github.com/xiaoxulv" target="_blank"><i class="fa fa-github"></i></a>
+
+              <a class="btn btn-social-icon btn-sm btn-facebook" href="https://www.facebook.com/xiaoxu.lu.7" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+              
+          <div class="col-sm-5">
+            <span class="fa-stack fa-sm">
+              <i class="fa fa-map-marker fa-stack-1x"></i>
+            </span>
+              5000 Forbes, Pittsburgh, PA, 15213<br>
+            <span class="fa-stack fa-sm">
+              <i class="fa fa-envelope fa-stack-1x"></i>
+            </span>
+              <a href="mailto:xiaoxul@andrew.cmu.edu" target="_top">xiaoxul@andew.cmu.edu</a><br>
+          </div>
+
+        </div>
+      </div><!--footer-->
+
+          
+
+    </div> <!--container-->
+
+
+  </body>
+
+</html>
